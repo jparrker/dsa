@@ -10,7 +10,7 @@
 
 //input and outputs are numbers
 //keep the sign -> Math.sign
-//strip leading zeros
+//no leading zeros -> parseInt handles these
 
 function reverseInt(n) {
   const reversed = n.toString().split("").reverse().join("");
